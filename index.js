@@ -12,8 +12,8 @@ function transform(pxlen, height, x, y, z) {
     z = z || 0;
 
     return {
-        left: (x - y) * pxlen,
-        top: ((x + y) * 0.6 * pxlen) + (z * height),
+        left: ((x - y) * pxlen) + 'px',
+        top: (((x + y) * 0.6 * pxlen) + (z * height)) + 'px',
         zIndex: Math.round(1000 + (1000 * z) - ((x + y)))
     }
 }
