@@ -21,19 +21,19 @@ function transform(pxlen, height, x, y, z) {
 var faceMap = {
     front: {
         rotateZ: '-30deg',
-        skewX: '-30deg'
+        skewX: '-30deg',
         skewY: '0deg'
     },
     left: {
         rotateZ: '30deg',
-        skewX: '30deg'
+        skewX: '30deg',
         skewY: '0deg',
         translateX: '-30px',
         translateY: '14.2px'
     },
     top: {
         rotateZ: '-30deg',
-        skewX: '30deg'
+        skewX: '30deg',
         skewY: '0deg',
         translateX: '15px',
         translateY: '-30px'
